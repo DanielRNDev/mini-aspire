@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Daniel"
+    },
+    {
+      "id": 2,
+      "name": "Josue"
+    },
+    {
+      "id": 3,
+      "name": "Mikel"
+    }
+  ],
+  "loans": [
+    {
+      "userId": 1,
+      "loan": [
+        {
+          "amount": 1200,
+          "loanTerm": 12,
+          "purpose": "Buy iPhone 12 Pro Max",
+          "approvedBank": "UOB",
+          "approvedBankFullName": "United Overseas Bank",
+          "recentlyPayment": [
+            {
+              "date": "24-08-2020",
+              "payAmount": 100
+            },
+            {
+              "date": "17-08-2020",
+              "payAmount": 100
+            },
+            {
+              "date": "10-08-2020",
+              "payAmount": 100
+            },
+            {
+              "date": "03-08-2020",
+              "payAmount": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "loan": [
+        {
+          "amount": 4800,
+          "loanTerm": 24,
+          "purpose": "Travel Expense",
+          "approvedBank": "CIMB",
+          "approvedBankFullName": "CIMB",
+          "recentlyPayment": [
+            {
+              "date": "24-08-2020",
+              "payAmount": 200
+            },
+            {
+              "date": "17-08-2020",
+              "payAmount": 200
+            },
+            {
+              "date": "10-08-2020",
+              "payAmount": 200
+            },
+            {
+              "date": "03-08-2020",
+              "payAmount": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "userId": 3,
+      "loan": [
+        {
+          "amount": 900,
+          "loanTerm": 6,
+          "purpose": "PS5",
+          "approvedBank": "OCBC",
+          "approvedBankFullName": "OCBC Bank",
+          "recentlyPayment": [
+            {
+              "date": "24-08-2020",
+              "payAmount": 150
+            },
+            {
+              "date": "03-08-2020",
+              "payAmount": 150
+            },
+            {
+              "date": "10-08-2020",
+              "payAmount": 150
+            },
+            {
+              "date": "17-08-2020",
+              "payAmount": 150
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
