@@ -18,6 +18,8 @@ Android cannot connect to local server so we need to open package json and chang
 
 For example: `"start-server": "node server/index.js --watch db.json --host 192.168.1.XXX"`
 
+For Android release version, the api must deploy to a real server.
+
 ## USER STORY
 
 As a user, first time login will show the Home screen which user can create the new loan plan:
